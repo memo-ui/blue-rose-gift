@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;  /* Dunkles Grau als Hintergrund */
+  color: #f3f4f6;  /* Helle Schriftfarbe für besseren Kontrast */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

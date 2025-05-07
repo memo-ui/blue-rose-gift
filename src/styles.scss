@@ -1,0 +1,28 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .gift-container {
+    margin-top: 30px;
+  }
+  
+  .gift-link {
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .gift-link:hover {
+    text-decoration: underline;
+  }
+  
