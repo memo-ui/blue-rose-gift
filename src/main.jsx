@@ -4,5 +4,10 @@ import App from "./App";
 import "./index.css"; // Tailwind-Direktiven
 import "./styles.scss"; // Benutzerdefinierte SCSS-Datei
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+      <BrowserRouter basename="/blue-rose-gift"> {/* <-- wichtig */}
+        <App />
+      </BrowserRouter>
+    </React.StrictMode>
+  );
